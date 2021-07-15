@@ -1,4 +1,4 @@
-package org.example;
+package org.hugofsd;
 
 import static org.junit.Assert.assertTrue;
 

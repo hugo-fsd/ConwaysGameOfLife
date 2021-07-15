@@ -1,6 +1,6 @@
-package org.example.controller;
+package org.hugofsd.controller;
 
-import org.example.models.Grid;
+import org.hugofsd.models.Grid;
 
 public class Controller {
 

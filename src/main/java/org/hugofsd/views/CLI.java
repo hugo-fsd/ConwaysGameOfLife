@@ -1,6 +1,6 @@
-package org.example.views;
+package org.hugofsd.views;
 
-import org.example.controller.Controller;
+import org.hugofsd.controller.Controller;
 
 public class CLI {
     public CLI() {

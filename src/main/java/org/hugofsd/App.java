@@ -1,7 +1,6 @@
-package org.example;
+package org.hugofsd;
 
-import org.example.views.CLI;
-import org.example.views.GUI;
+import org.hugofsd.views.GUI;
 
 public class App {
     public static void main(String[] args){

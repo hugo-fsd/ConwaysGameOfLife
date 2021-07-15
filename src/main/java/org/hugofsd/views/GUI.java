@@ -1,4 +1,4 @@
-package org.example.views;
+package org.hugofsd.views;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -10,7 +10,7 @@ import javafx.scene.layout.VBox;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
-import org.example.controller.Controller;
+import org.hugofsd.controller.Controller;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

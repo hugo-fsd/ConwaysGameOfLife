@@ -1,4 +1,4 @@
-package org.example.models;
+package org.hugofsd.models;
 
 import java.util.Random;
 
