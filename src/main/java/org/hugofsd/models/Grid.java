@@ -22,6 +22,7 @@ public class Grid {
                 matrix[i][j] = Math.toIntExact(Math.round((0 + (0.55 - 0) * random.nextDouble())));
             }
         }
+        addGeneration();
     }
 
     public void addGeneration() {
@@ -41,7 +42,7 @@ public class Grid {
     }
 
     public void nextIteration() {
-        Integer [][] gridCopy = new Integer[matrix.length][];
+        Integer[][] gridCopy = new Integer[matrix.length][matrix[0].length];
         for(int i = 0; i < matrix.length; i++)
             gridCopy[i] = matrix[i].clone();
 
@@ -59,7 +60,6 @@ public class Grid {
             }
         }
         matrix = gridCopy;
-        addGeneration();
     }
 
     public int checkNeighboursAlive(int y, int x) {
@@ -96,5 +96,10 @@ public class Grid {
 
     public int getGenerations() {
         return this.generations;
+    }
+
+
+    public void resetGenerations() {
+        this.generations = 0;
     }
 }
