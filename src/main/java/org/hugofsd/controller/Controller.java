@@ -10,15 +10,6 @@ public class Controller {
         this.grid = new Grid(100, 100);
     }
 
-    public void startGame() {
-        populateGrid();
-
-        while(isAlive()) {
-            nextIteration();
-        }
-        System.out.println("Terminado.");
-    }
-
     public void populateGrid() {
         grid.populateGrid();
     }
@@ -29,6 +20,7 @@ public class Controller {
 
     public void nextIteration() {
         grid.nextIteration();
+        addGeneration();
     }
 
     public int getCols() {
@@ -45,5 +37,13 @@ public class Controller {
 
     public int getGenerations() {
         return grid.getGenerations();
+    }
+
+    public void addGeneration() {
+        grid.addGeneration();
+    }
+
+    public void resetGenerations() {
+        grid.resetGenerations();
     }
 }
