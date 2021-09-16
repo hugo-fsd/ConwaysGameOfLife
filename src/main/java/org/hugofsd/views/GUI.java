@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseButton;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
@@ -12,6 +13,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 import org.hugofsd.controller.Controller;
+
 
 import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
@@ -36,8 +38,11 @@ public class GUI extends Application {
 
         Scene scene = new Scene(vbox, 900, 930);
 
+        Image image = new Image("/logo.jpg");
+
+        primaryStage.getIcons().add(image);
         primaryStage.setResizable(false);
-        primaryStage.setTitle("Conways game of life by Hugo-fsd");
+        primaryStage.setTitle("Conways game of life by github.com/hugo-fsd");
         primaryStage.setScene(scene);
         primaryStage.show();
 
@@ -159,11 +164,8 @@ public class GUI extends Application {
 
     public void nextIteration() {
         paintToValue();
-        System.out.println(controller.getGenerations());
         controller.nextIteration();
         valueToPaint();
-        Integer[][] grid = controller.getGrid();
-        System.out.println(Arrays.deepToString(grid));
     }
 
 
@@ -182,7 +184,6 @@ public class GUI extends Application {
                 }
             }
         }
-        System.out.println("PAINT-> " + controller.getGenerations());
     }
 
     public void paintToValue() {
@@ -216,10 +217,6 @@ public class GUI extends Application {
         return isRunning;
     }
 
-    public static void main(String[] args) {
-        launch(args);
-    }
-
     public void reset() {
         Integer[][] grid = controller.getGrid();
         for (int i = 0; i < grid.length; i++) {
@@ -230,5 +227,9 @@ public class GUI extends Application {
         valueToPaint();
         controller.resetGenerations();
         stopSimulation();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
     }
 }
