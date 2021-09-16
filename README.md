@@ -12,10 +12,16 @@ Decided to create this simple program simply to practice and build upon some of 
 
 ## Features
 
-Drawing: The user can draw the cells in order to create the original population. The user can also draw in a already running simulation and the program will react to it in real time.
-Randomise Population: Randomises the initial population on the board.
-Start Simulation: Starts the simulation based on the present cells on the board.
-Stop Iteration: Stops the simulation in the present moment.
-Next Iteration: After stopping the simulation, the user can press this button to skip one simulation at the time (each press).
-Resume Simulation: After stopping the simulation, the user can resume the simulation by pressing this button.
-Reset: Resets the program to the initial state. 
+**Drawing:** The user can draw the cells in order to create the original population. The user can also draw in a already running simulation and the program will react to it in real time.
+
+**Randomise Population:** Randomises the initial population on the board.
+
+**Start Simulation:** Starts the simulation based on the present cells on the board.
+
+**Stop Iteration:** Stops the simulation in the present moment.
+
+**Next Iteration:** After stopping the simulation, the user can press this button to skip one simulation at the time (each press).
+
+**Resume Simulation:** After stopping the simulation, the user can resume the simulation by pressing this button.
+
+**Reset:** Resets the program to the initial state. 
