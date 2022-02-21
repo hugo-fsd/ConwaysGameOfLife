@@ -35,4 +35,4 @@ It's a rar file that can be found in  "out/artifacts/ConwaysGameOfLife_jar" in t
 
 ## How to run
 
-As mentioned previously you can download the entire code and compile it for yourself or you can download the rar file above in the "Download" section above. If you choose to download the rar file you simply need to run the "run.bat" file which will run the "ConwaysGameOfLife.jar".
+As mentioned previously you can download the entire code and compile it for yourself or you can download the rar file above in the "Download" section above. If you choose to download the rar file, you need to open the rar file after downloading it and than extract the contents to your desired location. After this you simply need to run the "run.bat" file which will run the "ConwaysGameOfLife.jar".
