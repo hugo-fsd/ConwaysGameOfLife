@@ -1,4 +1,4 @@
-# ConwaysGameOfLife
+# Conways Game Of Life
 
 ## Description
 
