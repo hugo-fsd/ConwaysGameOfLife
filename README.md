@@ -29,7 +29,8 @@ Decided to create this simple program simply to practice and build upon some of 
 
 ## Download
 
-You can download the program [here.](https://github.com/hugo-fsd/ConwaysGameOfLife/raw/main/out/artifacts/ConwaysGameOfLife_jar/ConwaysGameOfLife_jar.rar) It's a rar file that can be found in  "out/artifacts/ConwaysGameOfLife_jar" in this project. The rar file contains "ConwaysGameOfLife.jar" and "run.bat", the jar file is the compiled code and the bat file is necessary to run the program.
+You can download the program here -> https://github.com/hugo-fsd/ConwaysGameOfLife/raw/main/out/artifacts/ConwaysGameOfLife_jar/ConwaysGameOfLife_jar.rar
+It's a rar file that can be found in  "out/artifacts/ConwaysGameOfLife_jar" in this project. The rar file contains "ConwaysGameOfLife.jar" and "run.bat", the jar file is the compiled code and the bat file is necessary to run the program.
 
 ## How to run
 
