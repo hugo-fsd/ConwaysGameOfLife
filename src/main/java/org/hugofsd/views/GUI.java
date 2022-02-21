@@ -149,17 +149,19 @@ public class GUI extends Application {
     }
 
     public void startSimulation() {
-        runSimulation();
-        executorService.submit(() -> {
-            while (isRunning()) {
-                nextIteration();
-                try {
-                    TimeUnit.MILLISECONDS.sleep(135);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+        if (!isRunning) {
+            runSimulation();
+            executorService.submit(() -> {
+                while (isRunning()) {
+                    nextIteration();
+                    try {
+                        TimeUnit.MILLISECONDS.sleep(135);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
                 }
-            }
-        });
+            });
+        }
     }
 
     public void nextIteration() {
