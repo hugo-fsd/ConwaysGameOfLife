@@ -25,3 +25,12 @@ Decided to create this simple program simply to practice and build upon some of 
 **Resume Simulation:** After stopping the simulation, the user can resume the simulation by pressing this button.
 
 **Reset:** Resets the program to the initial state. 
+
+
+##Download
+
+You can download the program [here.](https://github.com/hugo-fsd/ConwaysGameOfLife/raw/main/out/artifacts/ConwaysGameOfLife_jar/ConwaysGameOfLife_jar.rar) It's a rar file that can be found in  "out/artifacts/ConwaysGameOfLife_jar" in this project. The rar file contains "ConwaysGameOfLife.jar" and "run.bat", the jar file is the compiled code and the bat file is necessary to run the program.
+
+##How to run
+
+As mentioned previously you can download the entire code and compile it for yourself or you can download the rar file above in the "Download" section above. If you choose to download the rar file you simply need to run the "run.bat" file which will run the "ConwaysGameOfLife.jar".
